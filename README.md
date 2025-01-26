@@ -1,7 +1,5 @@
 ## Hi there 👋
 
-<div align="center">
-
 ![RedHat Linux][redhat-shield]
 ![Oracle Linux][oraclel-shield]
 ![Oracle Exadata][oraclee-shield]
@@ -13,36 +11,50 @@
 ![Vmware vsphere][vsphere-shield]
 ![google compute engine][gengine-shield]
 ![ansible][ansible-shield]
-
-</div>
-
-<div align="center">
-
+![AWX][awx-shield]
+![GiLab][gitlab-shield]
+---
 ![HTML][html-shield]
 ![CSS][css-shield]
 ![JS][js-shield]
 ![Python][py-shield]
 ![YAML][yaml-shield]
+---
 
-</div>
+[redhat-shield]: https://img.shields.io/badge/redhat-enterprice%20linux-red?style=flat-square&logo=redhat&logoColor=red
+[oraclel-shield]: https://img.shields.io/badge/oracle-linux-red?style=flat-square&logo=oracle&logoColor=red
+[oraclee-shield]: https://img.shields.io/badge/oracle-exadata-red?style=flat-square&logo=oracle&logoColor=red
+[oracles-shield]: https://img.shields.io/badge/oracle-solaris-red?style=flat-square&logo=oracle&logoColor=red
+[hpux-shield]: https://img.shields.io/badge/hp-ux-blue?style=flat-square&logo=hp&logoColor=blue
+[hpsg-shield]: https://img.shields.io/badge/hp-serviceguard-blue?style=flat-square&logo=hp&logoColor=blue
+[vcs-shield]: https://img.shields.io/badge/veritas-vcs-red?style=flat-square&logo=veritas&logoColor=red
+[sfha-shield]: https://img.shields.io/badge/veritas-storage%20foundation-red?style=flat-square&logo=veritas&logoColor=red
+[vsphere-shield]: https://img.shields.io/badge/vmware-vsphere-blue?style=flat-square&logo=vmware&logoColor=blue
+[gengine-shield]: https://img.shields.io/badge/-Google_Cloud_Platform-1a73e8?style=flat-square&logo=google-cloud&logoColor=white
+[ansible-shield]: https://img.shields.io/badge/ansible-automation-red?style=flat-square&logo=ansible&logoColor=white
+[awx-shield]: https://img.shields.io/badge/ansible-awx-blue?style=flat-square&logo=awx&logoColor=white
+[gitlab-shield]: https://img.shields.io/badge/gitlab-555555?style=flat-square&logo=gitlab&logoColor=orange
 
-[redhat-shield]: https://img.shields.io/badge/redhat-enterprice%20linux-red?style=for-the-badge&logo=redhat&logoColor=red
-[oraclel-shield]: https://img.shields.io/badge/oracle-linux-red?style=for-the-badge&logo=oracle&logoColor=red
-[oraclee-shield]: https://img.shields.io/badge/oracle-exadata-red?style=for-the-badge&logo=oracle&logoColor=red
-[oracles-shield]: https://img.shields.io/badge/oracle-solaris-red?style=for-the-badge&logo=oracle&logoColor=red
-[hpux-shield]: https://img.shields.io/badge/hp-ux-blue?style=for-the-badge&logo=hp&logoColor=blue
-[hpsg-shield]: https://img.shields.io/badge/hp-serviceguard-blue?style=for-the-badge&logo=hp&logoColor=blue
-[vcs-shield]: https://img.shields.io/badge/veritas-vcs-red?style=for-the-badge&logo=veritas&logoColor=red
-[sfha-shield]: https://img.shields.io/badge/veritas-storage%20foundation-red?style=for-the-badge&logo=veritas&logoColor=red
-[vsphere-shield]: https://img.shields.io/badge/vmware-vsphere-blue?style=for-the-badge&logo=vmware&logoColor=blue
-[gengine-shield]: https://img.shields.io/badge/google%20cloud-compute%20engine-blue?style=for-the-badge&logo=googlecloud&logoColor=yellow
-[ansible-shield]: https://img.shields.io/badge/ansible-automation-red?style=for-the-badge&logo=ansible&logoColor=white
+[html-shield]: https://img.shields.io/badge/html-orange?style=flat-square&logo=html5&logoColor=white
+[css-shield]: https://img.shields.io/badge/css-blue?style=flat-square&logo=css3&logoColor=white
+[js-shield]: https://img.shields.io/badge/javascript-yellow?style=flat-square&logo=javascript&logoColor=white
+[py-shield]: https://img.shields.io/badge/python-blue?style=flat-square&logo=python&logoColor=yellow
+[yaml-shield]: https://img.shields.io/badge/yaml-red?style=flat-square&logo=yaml&logoColor=white
 
-[html-shield]: https://img.shields.io/badge/html-orange?style=for-the-badge&logo=html5&logoColor=white
-[css-shield]: https://img.shields.io/badge/css-blue?style=for-the-badge&logo=css3&logoColor=white
-[js-shield]: https://img.shields.io/badge/javascript-yellow?style=for-the-badge&logo=javascript&logoColor=white
-[py-shield]: https://img.shields.io/badge/python-blue?style=for-the-badge&logo=python&logoColor=yellow
-[yaml-shield]: https://img.shields.io/badge/yaml-red?style=for-the-badge&logo=yaml&logoColor=white
+#### last post:
+![reddit][reddit-shield]
+
+* **[ansible.builtin.service_facts new issue #84607 for incorrect state](https://www.reddit.com/r/ansible/comments/1i97f8w/ansiblebuiltinservice_facts_new_issue_84607_for/)** ⭐ _new_ ⭐
+* **[AWX push notification card on Google Meet Spaces](https://www.reddit.com/r/ansible/comments/1i53v6p/awx_push_notification_card_on_google_meet_spaces/)**
+* **[exa_facts module: Gathers facts from Oracle Exadata Machine](https://www.reddit.com/r/ansible/comments/1hxmkuc/exa_facts_module_gathers_facts_from_oracle/)**
+
+---
+
+##### open issue:
+
+* **[ansible.builtin.service_facts state is not accurate when the source is systemd #84607](https://github.com/ansible/ansible/issues/84607)** ⭐ _new_ ⭐
+
+---
 
 #### is it time? :thinking:
 
@@ -67,33 +79,16 @@
     - name: setup filter
       setup:
         filter:
-        - 'wokeup_date_time'
-        - 'sleep_hours'
         - 'number_coffees'
   
     tasks:
   
-    # chek day
-    - name: Check woke up time
-      fail:
-        msg: sorry it's too early!
-      when: wokeup_date_time.hours|int < 12
-  
     - name: Check sleep
       fail:
         msg: sorry it's not time yet
-      when: sleep_hours|int < 8
-  
-    - name: Check coffee
-      fail:
-        msg: sorry but the first coffee is sacred
       when: number_coffees|int < 1
-  
-    - name: it's time
-      debug:
-        msg: "{{name}} is ready for a new day" 
 ```
-
+[reddit-shield]: https://img.shields.io/badge/reddit-white?style=flat-square&logo=reddit&logoColor=red
 <!--
 **NomakCooper/nomakcooper** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
