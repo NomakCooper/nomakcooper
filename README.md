@@ -48,9 +48,13 @@
 * **[AWX push notification card on Google Meet Spaces](https://www.reddit.com/r/ansible/comments/1i53v6p/awx_push_notification_card_on_google_meet_spaces/)**
 * **[exa_facts module: Gathers facts from Oracle Exadata Machine](https://www.reddit.com/r/ansible/comments/1hxmkuc/exa_facts_module_gathers_facts_from_oracle/)**
 
+![ansible-forum][ansible-forum-shield]
+
+* **[Ansible.builtin.service_facts incorrect and simplified state](https://forum.ansible.com/t/ansible-builtin-service-facts-incorrect-and-simplified-state/39836)** ⭐ _new_ ⭐
+
 ## open issue: 🐛
 
-* **[ansible.builtin.service_facts state is not accurate when the source is systemd #84607](https://github.com/ansible/ansible/issues/84607)** ⭐ _new_ ⭐
+* **[ansible.builtin.service_facts incorrect and simplified state #84607](https://github.com/ansible/ansible/issues/84607)** ⭐ _new_ ⭐
 
 #### is it time? :thinking:
 
@@ -85,6 +89,7 @@
       when: number_coffees|int < 1
 ```
 [reddit-shield]: https://img.shields.io/badge/reddit-white?style=flat-square&logo=reddit&logoColor=red
+[ansible-forum-shield]: https://img.shields.io/badge/ansible%20forum-white?style=flat-square&logo=ansible&logoColor=black
 <!--
 **NomakCooper/nomakcooper** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
