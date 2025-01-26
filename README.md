@@ -13,7 +13,7 @@
 ![ansible][ansible-shield]
 ![AWX][awx-shield]
 ![GiLab][gitlab-shield]
----
+
 ![HTML][html-shield]
 ![CSS][css-shield]
 ![JS][js-shield]
@@ -41,20 +41,16 @@
 [py-shield]: https://img.shields.io/badge/python-blue?style=flat-square&logo=python&logoColor=yellow
 [yaml-shield]: https://img.shields.io/badge/yaml-red?style=flat-square&logo=yaml&logoColor=white
 
-#### last post:
+## last post: ✍️
 ![reddit][reddit-shield]
 
 * **[ansible.builtin.service_facts new issue #84607 for incorrect state](https://www.reddit.com/r/ansible/comments/1i97f8w/ansiblebuiltinservice_facts_new_issue_84607_for/)** ⭐ _new_ ⭐
 * **[AWX push notification card on Google Meet Spaces](https://www.reddit.com/r/ansible/comments/1i53v6p/awx_push_notification_card_on_google_meet_spaces/)**
 * **[exa_facts module: Gathers facts from Oracle Exadata Machine](https://www.reddit.com/r/ansible/comments/1hxmkuc/exa_facts_module_gathers_facts_from_oracle/)**
 
----
-
-##### open issue:
+## open issue: 🐛
 
 * **[ansible.builtin.service_facts state is not accurate when the source is systemd #84607](https://github.com/ansible/ansible/issues/84607)** ⭐ _new_ ⭐
-
----
 
 #### is it time? :thinking:
 
