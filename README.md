@@ -52,9 +52,13 @@
 
 * **[Ansible.builtin.service_facts incorrect and simplified state](https://forum.ansible.com/t/ansible-builtin-service-facts-incorrect-and-simplified-state/39836)** ⭐ _new_ ⭐
 
-## open issue: 🐛
+## open issue: ⚠️
 
 * **[ansible.builtin.service_facts incorrect and simplified state #84607](https://github.com/ansible/ansible/issues/84607)** ⭐ _new_ ⭐
+
+## open PR: 📌
+
+* **[add new sub_state return value to service_facts module #84618](https://github.com/ansible/ansible/pull/84618)** ⭐ _new_ ⭐
 
 #### is it time? :thinking:
 
