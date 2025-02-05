@@ -41,25 +41,6 @@
 [py-shield]: https://img.shields.io/badge/python-blue?style=flat-square&logo=python&logoColor=yellow
 [yaml-shield]: https://img.shields.io/badge/yaml-red?style=flat-square&logo=yaml&logoColor=white
 
-## last post: ✍️
-![reddit][reddit-shield]
-
-* **[ansible.builtin.service_facts new issue #84607 for incorrect state](https://www.reddit.com/r/ansible/comments/1i97f8w/ansiblebuiltinservice_facts_new_issue_84607_for/)** ⭐ _new_ ⭐
-* **[AWX push notification card on Google Meet Spaces](https://www.reddit.com/r/ansible/comments/1i53v6p/awx_push_notification_card_on_google_meet_spaces/)**
-* **[exa_facts module: Gathers facts from Oracle Exadata Machine](https://www.reddit.com/r/ansible/comments/1hxmkuc/exa_facts_module_gathers_facts_from_oracle/)**
-
-![ansible-forum][ansible-forum-shield]
-
-* **[Ansible.builtin.service_facts incorrect and simplified state](https://forum.ansible.com/t/ansible-builtin-service-facts-incorrect-and-simplified-state/39836)** ⭐ _new_ ⭐
-
-## open issue: ⚠️
-
-* **[ansible.builtin.service_facts incorrect and simplified state #84607](https://github.com/ansible/ansible/issues/84607)** ⭐ _new_ ⭐
-
-## open PR: 📌
-
-* **[add new sub_state return value to service_facts module #84618](https://github.com/ansible/ansible/pull/84618)** ⭐ _new_ ⭐
-
 #### is it time? :thinking:
 
 ```yaml
