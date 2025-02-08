@@ -41,6 +41,9 @@
 [py-shield]: https://img.shields.io/badge/python-blue?style=flat-square&logo=python&logoColor=yellow
 [yaml-shield]: https://img.shields.io/badge/yaml-red?style=flat-square&logo=yaml&logoColor=white
 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=nomakcooper&show_icons=true&custom_title=Nomakcooper%20GitHub%20Stats&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=github&theme=github_dark)
+---
+
 #### is it time? :thinking:
 
 ```yaml
