@@ -41,6 +41,48 @@
 [py-shield]: https://img.shields.io/badge/python-blue?style=flat-square&logo=python&logoColor=yellow
 [yaml-shield]: https://img.shields.io/badge/yaml-red?style=flat-square&logo=yaml&logoColor=white
 
+```
+╭─── Profile v1.0 ─────────────────────────────────────────────────────────────────╮
+│                                                    │ Tips for getting started    │
+│                 Welcome back Marco!                │ Run /profile!               │
+│                                                    │ ────────────────────────────│
+│       NomakCooper's Organization                   │                             │
+│       /nomakcooper                                 │                             │
+╰──────────────────────────────────────────────────────────────────────────────────╯
+  ⎿  SessionStart:startup says: [nomakcooper] recent context
+     ────────────────────────────────────────────────────────────
+                                          
+██████╗ ██████╗  ██████╗ ███████╗██╗██╗     ███████╗
+██╔══██╗██╔══██╗██╔═══██╗██╔════╝██║██║     ██╔════╝
+██████╔╝██████╔╝██║   ██║█████╗  ██║██║     █████╗  
+██╔═══╝ ██╔══██╗██║   ██║██╔══╝  ██║██║     ██╔══╝  
+██║     ██║  ██║╚██████╔╝██║     ██║███████╗███████╗
+╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝╚══════╝
+
+❯ /profile 
+  ⎿  Load profile
+
+  ╭────────────────────────────────────────────────────────────────────────────────╮
+  │                                                                                │
+  │ Profile                                                                        │
+  │                                                                                │
+  │ Name                              Marco                                        │
+  │ Alias                             Nocchia                                      │
+  │ Username                          NomakCooper                                  │
+  │ Country                           Italy                                        │
+  │                                                                                │
+  │ Role                              Diagiostic Operator                          │
+  │                                                                                │
+  ╰────────────────────────────────────────────────────────────────────────────────╯
+
+───────────────────────────────────────────────────────────────────────────────────
+❯  /profile
+───────────────────────────────────────────────────────────────────────────────────
+  Model: Profile 1.0 | Ctx: 0 | ⎇ main | (+0,-0)                                                                     
+  Context: [░░░░░░░░░░░░░░░░] 0k/200k (0%) | Mem: 7.8G/16.0G
+  v1.0 | Thinking: medium | Cost: $0.00 | Session: 0.0%
+                                              
+```
 
 #### is it time? :thinking:
 
@@ -50,14 +92,6 @@
     hosts: localhost
     become: true
     become_method: sudo
-  
-  # global vars
-    vars:
-      name: 'Marco'
-      alias: 'Nocchia'
-      username: 'NomakCooper'
-      country: 'Italy'
-      role: 'Diagnostic Operator'
   
     # pre setup
     pre_tasks:
